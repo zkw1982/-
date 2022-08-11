@@ -1,0 +1,33 @@
+{
+  "positions" : [ {
+    "id" : "/Start",
+    "x" : 234,
+    "y" : 273
+  }, {
+    "id" : "/Hello",
+    "x" : -178,
+    "y" : 601
+  }, {
+    "id" : "/Bye",
+    "x" : -191,
+    "y" : 1404
+  }, {
+    "id" : "/NoMatch",
+    "x" : 232,
+    "y" : 1588
+  }, {
+    "id" : "/Match",
+    "x" : 240,
+    "y" : 1866
+  }, {
+    "id" : "/NewState_5",
+    "name" : "NewState_5",
+    "x" : 205,
+    "y" : 953
+  }, {
+    "id" : "/NewState_5/NewState_5",
+    "name" : "NewState_5",
+    "x" : 45,
+    "y" : 614
+  } ]
+}
