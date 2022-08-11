@@ -10,6 +10,15 @@ theme: /
         intent!: /привет
         a: Привет привет
 
+state: NewState_5
+        intent!: /К чему готовы?
+        buttons:
+            "4 - норм" -> /Bye
+            "Буду биться на 5 за себя" -> /Bye
+            "Тонуть и плыть только вместе" -> /Bye
+        go!: /NewState_5
+        intent: /К чему готовы? || onlyThisState = true, toState = "./"
+
     state: Bye
         intent!: /пока
         a: Пока пока
@@ -22,13 +31,4 @@ theme: /
         event!: match
         a: {{$context.intent.answer}}
 
-    state: NewState_5
-        intent!: /К чему готовы?
-        buttons:
-            "4 - норм" -> /Bye
-            "Буду биться на 5 за себя" -> /Bye
-            "Тонуть и плыть только вместе" -> /Bye
-        go!: /NewState_5
-        intent: /К чему готовы? || onlyThisState = true, toState = "./"
-
-        state: NewState_5
+    
