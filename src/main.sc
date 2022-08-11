@@ -10,7 +10,7 @@ theme: /
         intent!: /привет
         a: Привет привет
 
-state: NewState_5
+       state: NewState_5
         intent!: /К чему готовы?
         buttons:
             "4 - норм" -> /Bye
